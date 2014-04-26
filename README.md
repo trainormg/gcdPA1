@@ -1,4 +1,5 @@
-gcdPA1
+Getting and Cleaning Data
 ======
 
-Getting and Cleaning Data - Peer Assessment 1
+## Peer Assessment 1
+
