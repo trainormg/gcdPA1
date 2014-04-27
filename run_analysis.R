@@ -14,7 +14,7 @@
 
 ### Reads the dataset and returns a tidy, smaller data frame.
 ## The result contains only the mean values grouped by subject and activity 
-## of the variables in the original dataset containng mean or standard
+## of the variables in the original dataset containing mean or standard
 ## deviations of raw data.
 
 ## inputs:
@@ -86,7 +86,7 @@ getTidyData <- function(datadir = 'UCI HAR Dataset', outputFile = NULL) {
         # add the subject and activityId columns to the full data frame
         data <- cbind(subjects, actIds, data)
         
-        ## calculate means
+        ## compute means
 
         # we know the subsets do not overlap (the same subject cannot be in
         # 2 different files), so we can group the subset separately
@@ -99,13 +99,13 @@ getTidyData <- function(datadir = 'UCI HAR Dataset', outputFile = NULL) {
         # external dependencies
     }
 
-    ## replace activity ids with decriptive names
+    ## replace activity ids with descriptive names
     
     # add the activity name - will be the first column in result
     tidy <- merge(x=actLabels, y=tidy, by='activityId')
     
     # reorder the result by ascending subject and activity name
-    # drops the activityId column and reorders the colums so as subject and
+    # drop the activityId column and reorder the columns so as subject and
     # activity are the fist ones
     tidy <- tidy[order(tidy$subject, tidy$activity), c(3, 2, 4:ncol(tidy))]
     
