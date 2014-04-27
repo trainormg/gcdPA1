@@ -1,3 +1,7 @@
+### Simplified variable names 
+
+The following table contains the full list of original and translated variable names.
+
 original name | tidy name |   | original name | tidy name
 ---- | ---- | ---- | ---- | ----
 `tBodyAcc-mean()-X` | `tBodyAcc.mean.X` |   | `tGravityAccMag-std()` | `tGravityAccMag.std`
