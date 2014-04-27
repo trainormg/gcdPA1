@@ -126,3 +126,5 @@ tidy <- getTidyData()
 # to save the results to a file, run:
 # tidy <- getTidyData(outputFile='tidyMeans.txt')
 
+# to look for the data in a different folder, run:
+# tidy <- getTidyData(datadir='/my/path/to/dataset')
