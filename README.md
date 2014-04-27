@@ -49,7 +49,8 @@ So, for example, the column name `tBodyAcc-mean()-X` in the original file become
 
 The following table shows an example of the tidy output:
 
-| subject | activity | tBodyAcc.mean.X | ... 64 more measures ... | fBodyBodyGyroJerkMag.std
+| subject | activity | tBodyAcc.mean.X | ... *64 more measures* ... | fBodyBodyGyroJerkMag.std
+| ------:|:------ | ------:|:------:| ------:
 | 1 | LAYING | 0.2215982 | ... | -0.9326607
 | 1 | SITTING | 0.2612376 | ... | -0.9870496
 | 1 | STANDING | 0.2789176 | ... | -0.9946711
@@ -67,4 +68,8 @@ for the purposes of this analysis, the variables were defined as
 
 ### Reference
 
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+A full description of the original data set is available at the site where the data was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+**Citation:**  
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
