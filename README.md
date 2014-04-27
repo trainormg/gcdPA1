@@ -65,9 +65,7 @@ The following table shows an example of the tidy output:
 | ... | ... | ... | ... | ...
 
 
-The following table contains the full list of original and translated variable names.
-
-[names.md](names.md)
+The full list of original and translated variable names is available [here](names.md)
 
 ### Reference
 
